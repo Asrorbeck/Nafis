@@ -1,0 +1,67 @@
+.standart__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .standart__wrapper {
+        max-width: 391px;
+        width: 100%;
+        margin-right: 74px;
+        margin-bottom: 50px;
+        .standart__heading {
+            font-family: 'Tenor Sans';
+            font-weight: 400;
+            font-size: 40px;
+            line-height: 60px;
+            color: #000000;
+            margin-bottom: 30px;
+        }
+        .standart__top-list {
+            display: flex;
+            margin-bottom: 30px;
+            gap: 90px;
+            .standart__t-item {
+                max-width: 135px;
+                width: 100%;
+                .standart__t-item-heading {
+                    font-family: 'Tenor Sans';
+                    font-weight: 400;
+                    font-size: 64px;
+                    line-height: 64px;
+                    color: #9C5642;
+                }
+                .standart__t-item-text {
+                    font-family: 'Tenor Sans';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    text-transform: capitalize;
+                    color: #564E4E;
+                }
+            }
+        }
+        .standart__bottom-list {
+            display: flex;
+            margin-bottom: 10px;
+            gap: 90px;
+            .standart__b-item {
+                max-width: 135px;
+                width: 100%;
+                .standart__b-item-heading {
+                    font-family: 'Tenor Sans';
+                    font-weight: 400;
+                    font-size: 64px;
+                    line-height: 64px;
+                    color: #9C5642;
+                }
+                .standart__b-item-text {
+                    font-family: 'Tenor Sans';
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 24px;
+                    text-transform: capitalize;
+                    color: #564E4E;
+                }
+            }
+        }
+    }
+}
