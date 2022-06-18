@@ -1157,6 +1157,10 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 0;
+  }
+  .project__container .project__list .project__item {
+    margin-bottom: 30px;
   }
 }
 
@@ -1264,6 +1268,10 @@ img {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    gap: 0;
+  }
+  .group__container .group__list .group__item {
+    margin-bottom: 30px;
   }
 }
 
@@ -1399,6 +1407,7 @@ img {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     margin: 0;
+    margin-bottom: 30px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
@@ -2116,6 +2125,12 @@ img {
   .footer__first {
     margin: 0;
     margin-bottom: 47px;
+  }
+  .footer__icon-list {
+    gap: 0;
+  }
+  .footer__icon-img {
+    margin-right: 20px;
   }
   .footer__main-list {
     display: -webkit-box;

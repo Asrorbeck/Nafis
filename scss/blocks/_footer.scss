@@ -121,9 +121,12 @@
         }
         
         &__icon-list {
-            
+            gap: 0;
         }
-        
+
+        &__icon-img {
+            margin-right: 20px;
+        }
         
         &__main-list {
             display: flex;

@@ -83,6 +83,11 @@
         .group__list {
             display: flex;
             flex-direction: column;
+            gap: 0;
+            .group__item {
+
+                margin-bottom: 30px;
+            }
         }
     }
 }

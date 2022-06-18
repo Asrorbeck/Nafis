@@ -120,6 +120,10 @@
         .project__list {
             display: flex;
             flex-direction: column;
+            gap: 0;
+            .project__item {
+                margin-bottom: 30px;
+            }
         }
     }
 }
