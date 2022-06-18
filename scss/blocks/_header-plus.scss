@@ -1,9 +1,5 @@
-.header {
-    position: fixed;
-    width: 100%;
-    background-color: transparent;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25));
-    z-index: 999;
+.header-plus {
+    margin-bottom: 80px;
     .header__container {
         display: flex;
         align-items: center;
@@ -20,7 +16,7 @@
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 24px;
-                color: #FFFFFF;
+                color: #000;
             }
             .header__item-link--active {
                 text-decoration: underline;
@@ -35,7 +31,7 @@
                 font-weight: 500;
                 font-size: 20px;
                 line-height: 24px;
-                color: #FFFFFF;
+                color: #000;
                 opacity: 0.6;
             }
             .header__ru-link--active {

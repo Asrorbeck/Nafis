@@ -2,8 +2,6 @@
     background: #FBFBF9;
     padding-top: 60px;
     
-    &__container {
-    }
     
     &__wrapper {
         display: flex;
@@ -30,14 +28,6 @@
         justify-content: center;
     }
     
-    &__icon-item {
-    }
-    
-    &__icon-link {
-    }
-    
-    &__icon-img {
-    }
     
     &__main-list {
         display: flex;
@@ -108,6 +98,4 @@
         padding-bottom: 24px;
         text-align: center;
     }
-}
-.footer-logo {
 }

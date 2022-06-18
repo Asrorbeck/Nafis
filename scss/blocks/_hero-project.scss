@@ -1,0 +1,28 @@
+.hero-project__header {
+    backdrop-filter: blur(29px);
+}
+
+.hero-project {
+    background-image: url('./../img/hero-project-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 64px;    
+    &__container {
+        padding-top: 200px;
+        padding-bottom: 220px;
+    }
+    
+    &__heading {
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 80px;
+        line-height: 100px;
+        color: #FFFAF7;
+        text-shadow: 0px 1.51639px 4.54917px rgba(0, 0, 0, 0.25);
+        max-width: 595px;
+        width: 100%;
+    }
+}
+.container {
+}
