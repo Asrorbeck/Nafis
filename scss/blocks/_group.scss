@@ -1,0 +1,69 @@
+.group__container {
+    .group__heading{
+        position: relative;
+        padding-top: 157px;
+        font-family: 'Tenor Sans';
+        font-weight: 400;
+        font-size: 64px;
+        line-height: 75px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 100px;
+        margin-right: auto;
+        margin-left: auto;
+        &::before {
+            position: absolute;
+            content: "";
+            display: inline-block;
+            max-width: 89px;
+            width: 100%;
+            height: 47px;
+            background-image: url('./../img/flower.svg');
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: 50%;
+            left: 50%;
+            transform: translateY(-20%) translateX(-60%);
+        }
+    }
+    .group__list {
+        display: flex;
+        align-items: center;
+        gap: 31px;
+        justify-content: space-between;
+        .group__item {
+            padding-top: 310px;
+            padding-bottom: 24px;
+            max-width: 231px;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.12%, #000000 100%), url('./../../img/group-1.png') ;
+            background-repeat: no-repeat;
+            background-size: cover;
+            &:nth-child(2) {
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.12%, #000000 100%), url('./../../img/group-2.jpg');
+            }
+            
+            &:nth-child(3) {
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.12%, #000000 100%), url('./../../img/group3.jpg');
+            }
+            
+            &:nth-child(4) {
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.12%, #000000 100%), url('./../../img/group-4.jpg');
+            }
+            
+            &:nth-child(5) {
+                background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 48.12%, #000000 100%), url('./../../img/group-5.jpg');
+            }
+            .group__item-text {
+                font-family: 'DM Sans';
+                font-weight: 500;
+                font-size: 24px;
+                line-height: 100%;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+    }
+}
