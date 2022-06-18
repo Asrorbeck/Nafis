@@ -52,16 +52,16 @@
                 background-image: url('./../img/ptichka.svg');
                 background-repeat: no-repeat;
             }
-
+            
             &:nth-child(2)::before {
                 background-image: url('./../img/gisht.svg');
             }
-
+            
             &:nth-child(3)::before {
                 background-image: url('./../img/plan.svg');
                 background-position: calc(50% - 1px);
             }
-
+            
             &:nth-child(4)::before {
                 background-image: url('./../img/star.svg');
                 background-position: calc(50% - 1px);
@@ -83,6 +83,39 @@
                 line-height: 26px;
                 text-align: center;
                 color: #564E4E
+            }
+        }
+    }
+}
+
+@media only screen and  (max-width: 375px) {
+    .why__container {
+        margin-bottom: 24px;
+        .why__heading {
+            padding-top: 66px;
+            font-size: 24px;
+            line-height: 28px;
+            margin-bottom: 24px;
+            &::before {
+                width: 40px;
+                height: 20px;
+            }
+        }
+        .why__list {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 24px;
+            .why__item {
+                padding: 97px 22px 20px 22px;
+                .why__item-heading{
+                    font-size: 14px;
+                    line-height: 16px;
+                    margin-bottom: 8px;
+                }
+                .why__item-text {
+                    font-size: 12px;
+                    line-height: 19px;
+                }
             }
         }
     }

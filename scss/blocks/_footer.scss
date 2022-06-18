@@ -99,3 +99,71 @@
         text-align: center;
     }
 }
+
+@media only screen and  (max-width: 375px) {
+    .footer {
+        background: #FBFBF9;
+        padding-top: 60px;
+        
+        
+        &__wrapper {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &__first {
+            margin: 0;
+            margin-bottom: 47px;
+        }
+        
+        &__logo-link {
+            
+        }
+        
+        &__icon-list {
+            
+        }
+        
+        
+        &__main-list {
+            display: flex;
+            flex-direction: column;
+            gap: 27px;
+        }
+        
+        &__main-item {
+            margin-bottom: 15px;
+            
+        }
+        
+        &__main-item-heading {
+            font-size: 16px;
+            line-height: 20px;
+        }
+        
+        &__main-item-link {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        
+        &__main-item-tel {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        
+        &__main-item-mail {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        
+        &__main-item-location {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        
+        &__bottom-text {
+            font-size: 13px;
+            line-height: 16px;
+        }
+    }
+}

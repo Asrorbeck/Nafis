@@ -93,3 +93,24 @@
         }
     }
 }
+
+
+@media only screen and  (max-width: 375px) {
+    .hero {
+        padding-top: 79px;
+        .hero__container {
+            justify-content: center;
+            margin: 0;
+            .hero__heading {
+                max-width: 241px;
+                width: 100%;
+                font-size: 34px;
+                line-height: 123.5%;
+                text-align: center;
+            }
+            .hero__form {
+                display: none;
+            }
+        }
+    }
+}

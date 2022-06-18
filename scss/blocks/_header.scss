@@ -45,3 +45,23 @@
         }
     }
 }
+
+@media only screen and  (max-width: 375px) {
+    .header {
+        .header__container {
+            max-width: 335px;
+            width: 100%;
+            padding: 10px 0;
+            .header__logo-img {
+                width: 70px;
+                height: 30px;
+            }
+            .header__list {
+                display: none;
+            }
+            .header__right-list {
+                display: none;
+            }
+        }
+    }
+}
