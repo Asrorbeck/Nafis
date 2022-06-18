@@ -490,7 +490,7 @@ img {
   opacity: 1;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .header .header__container {
     max-width: 335px;
     width: 100%;
@@ -692,7 +692,7 @@ img {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .hero {
     padding-top: 79px;
   }
@@ -816,7 +816,7 @@ img {
   color: #564E4E;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .why__container {
     margin-bottom: 24px;
   }
@@ -942,7 +942,7 @@ img {
   color: #564E4E;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .standart__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1138,7 +1138,7 @@ img {
   color: #F8F6F4;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .project__container .project__heading {
     padding-top: 66px;
     font-size: 24px;
@@ -1245,7 +1245,7 @@ img {
   color: #FFFFFF;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .group__container .group__heading {
     padding-top: 66px;
     font-size: 24px;
@@ -1367,7 +1367,7 @@ img {
   color: #000000;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .contact__heading {
     padding-top: 66px;
     font-size: 24px;
@@ -1381,6 +1381,7 @@ img {
   .contact__main-text {
     font-size: 14px;
     line-height: 24px;
+    margin-bottom: 40px;
   }
   .contact__wrapper {
     display: -webkit-box;
@@ -2098,7 +2099,7 @@ img {
   text-align: center;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 420px) {
   .footer {
     background: #FBFBF9;
     padding-top: 60px;
